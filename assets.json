@@ -47,6 +47,12 @@
       "url": "https://opengameart.org/sites/default/files/kaykit_medieval_builder_pack_1.0.zip",
       "pieces": 226,
       "used_for": "downloaded, not used - strategy-game scale, clashes with close-up framing"
+    },
+    "kaykit_adventurers_character_pack": {
+      "url": "https://github.com/KayKit-Game-Assets/KayKit-Character-Pack-Adventures-1.0",
+      "license": "CC0 1.0 (Kay Lousberg, kaylousberg.com)",
+      "used_for": "the family - Knight, Mage and Rogue, each rigged with ~60 built-in animations; plus the wall shields, two-handed sword, axe and quiver",
+      "note": "KayKit publish their packs on GitHub, which is directly downloadable - unlike itch.io or Quaternius' Google Drive links"
     }
   },
   "characters": {
@@ -57,6 +63,7 @@
       "Walking",
       "Running"
     ],
-    "note": "raw Mixamo files are NOT committed - Adobe's licence forbids redistribution"
+    "note": "raw Mixamo files are NOT committed - Adobe's licence forbids redistribution",
+    "superseded": "Mixamo Peasant Man was replaced by KayKit characters: the Mixamo meshes are semi-realistic and clashed with the hand-painted kit"
   }
 }
