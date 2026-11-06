@@ -88,5 +88,21 @@
     "note": "raw Mixamo files are NOT committed - Adobe's licence forbids redistribution",
     "superseded": "Mixamo Peasant Man was replaced by KayKit characters: the Mixamo meshes are semi-realistic and clashed with the hand-painted kit"
   },
-  "asset_index": "asset_index.json - 3179 models across 29 packs, name -> absolute path, built for lookup before placing anything"
+  "asset_index": "asset_index.json - 3179 models across 29 packs, name -> absolute path, built for lookup before placing anything",
+  "itch_io": {
+    "access": "itch.io downloads CAN be driven without a browser. Flow: GET project page -> csrf_token from meta tag -> parse init_ViewGame JSON for the CANONICAL slug (often differs from the URL) -> POST csrf to /download_url -> GET signed page -> POST csrf to /file/<upload_id>?source=game_download -> signed R2 URL. Free and name-your-own-price only.",
+    "packs_pulled": {
+      "quaternius/fantasy-props-megakit": "94 models - anvils, banners, barrels, beds, crates, the adventurer dressing the hand-built props were standing in for",
+      "quaternius/stylized-nature-megakit": "68 models - trees, dead trees, bushes, clover; matches the Quaternius house",
+      "quaternius/modular-character-outfits-fantasy": "24 rigged NPC outfits - peasant, ranger, male and female",
+      "quaternius/universal-animation-library": "retargetable animation library",
+      "quaternius/lowpoly-modular-dungeon-pack": "48 modular dungeon pieces",
+      "kaylousberg/kaykit-forest": "105 models - bushes and trees matching KayKit",
+      "kaylousberg/fantasy-weapons-bits": "31 weapons - bows, axes, daggers, arrows",
+      "kaylousberg/rpg-tools-bits": "49 smithing and crafting tools - anvil, grindstone, bellows",
+      "kaylousberg/resource-bits": "76 ore, ingots, nuggets, fuel barrels",
+      "gobkit/gobkit-free-animal-pack": "10 rigged low-poly animals"
+    },
+    "all_verified": "CC0 - licence file read inside every archive, not trusted from the listing"
+  }
 }
