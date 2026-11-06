@@ -30,11 +30,15 @@ If textures show as missing, point Blender at the asset folder:
 
 ## The scene
 
-A timber-framed cottage on a stone base with a thatched roof, home to two
-working adventurers and their son. Shields flanking the door, crossed
-swords and a horned trophy skull on the gable, a guild banner out front, a
-weapon rack, a training dummy, supply barrels and crates, lantern posts, a
-well.
+A half-timbered cottage with a round-tile roof, home to two working
+adventurers and their son. Shields hung either side of the arched door, a
+guild banner off the eave, spears leaning by the step, a woodpile against
+the flank wall, ivy up the front, a hay wagon, crates and fencing.
+
+The house is assembled from the CC0 Quaternius Medieval Village MegaKit on
+its 2m module grid. The family are Mixamo characters driven by three
+clips (idle / walking / running). Custom pieces — shields, banner, spears,
+woodpile, lantern — reuse the kit's own materials so they match.
 
 ## Render setup
 
@@ -46,8 +50,16 @@ well.
 
 ## Known gaps
 
-- The figures are built from primitives. Proportions are right, but they
-  have no faces, no hands to speak of, and no rig. Real character meshes
-  are the next real step up.
-- Tree canopies are displaced icospheres, not leaf geometry.
-- The banner and shield faces are flat colour, not painted heraldry.
+- The characters are semi-realistic Mixamo meshes against a hand-painted
+  kit. They don't fully belong. KayKit publishes CC0 rigged adventurers in
+  a matching style, but they ship their own rig, so the Mixamo clips
+  wouldn't carry over.
+- The shield and banner faces are flat colour, not painted heraldry.
+
+## Lighting
+
+Lit at dusk: a low warm sun, a cool blue sky fill, and warm interior light
+spilling through the windows from an emissive panel plus point lights
+inside the house. A lantern by the door adds a second warm pool. The
+contrast between warm practicals and cool shade is what sells it — not the
+geometry.
