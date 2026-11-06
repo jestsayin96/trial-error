@@ -2,15 +2,61 @@
   "source": "Poly Haven",
   "license": "CC0 1.0 Universal (public domain) - no attribution required",
   "resolution": "2k",
-  "maps": ["Diffuse", "nor_gl", "Rough", "Displacement", "AO"],
+  "maps": [
+    "Diffuse",
+    "nor_gl",
+    "Rough",
+    "Displacement",
+    "AO"
+  ],
   "textures": {
-    "thatch_roof_angled":     { "used_for": "roof" },
-    "medieval_blocks_03":     { "used_for": "stone base, chimney, well" },
-    "white_rough_plaster":    { "used_for": "walls" },
-    "weathered_brown_planks": { "used_for": "timber framing, door, barrels, crates" },
-    "forest_ground_04":       { "used_for": "grass and dirt path" },
-    "brown_leather":          { "used_for": "training dummy, belts, boots" }
+    "thatch_roof_angled": {
+      "used_for": "roof"
+    },
+    "medieval_blocks_03": {
+      "used_for": "stone base, chimney, well"
+    },
+    "white_rough_plaster": {
+      "used_for": "walls"
+    },
+    "weathered_brown_planks": {
+      "used_for": "timber framing, door, barrels, crates"
+    },
+    "forest_ground_04": {
+      "used_for": "grass and dirt path"
+    },
+    "brown_leather": {
+      "used_for": "training dummy, belts, boots"
+    }
   },
-  "hdri": { "spruit_sunrise": { "used_for": "environment lighting" } },
-  "approx_download_mb": 69
+  "hdri": {
+    "spruit_sunrise": {
+      "used_for": "environment lighting"
+    }
+  },
+  "approx_download_mb": 69,
+  "kits": {
+    "source": "OpenGameArt mirrors",
+    "license": "CC0",
+    "quaternius_medieval_village_megakit": {
+      "url": "https://opengameart.org/sites/default/files/medieval_village_megakitstandard.zip",
+      "pieces": 176,
+      "used_for": "the house itself - plaster walls, corners, door, shutters, round-tile roof, chimney, crates, wagon, fences, vines"
+    },
+    "kaykit_medieval_builder_pack": {
+      "url": "https://opengameart.org/sites/default/files/kaykit_medieval_builder_pack_1.0.zip",
+      "pieces": 226,
+      "used_for": "downloaded, not used - strategy-game scale, clashes with close-up framing"
+    }
+  },
+  "characters": {
+    "source": "Mixamo (user-supplied, not redistributed)",
+    "character": "Peasant Man (rigged, skinned, packed 1K maps)",
+    "clips": [
+      "Breathing Idle",
+      "Walking",
+      "Running"
+    ],
+    "note": "raw Mixamo files are NOT committed - Adobe's licence forbids redistribution"
+  }
 }
