@@ -53,6 +53,28 @@
       "license": "CC0 1.0 (Kay Lousberg, kaylousberg.com)",
       "used_for": "the family - Knight, Mage and Rogue, each rigged with ~60 built-in animations; plus the wall shields, two-handed sword, axe and quiver",
       "note": "KayKit publish their packs on GitHub, which is directly downloadable - unlike itch.io or Quaternius' Google Drive links"
+    },
+    "kaykit_full_catalogue": {
+      "source": "https://github.com/KayKit-Game-Assets",
+      "license": "CC0 1.0",
+      "packs": [
+        "Character-Pack-Adventures",
+        "Character-Pack-Skeletons",
+        "City-Builder-Bits",
+        "Dungeon-Remastered",
+        "Medieval-Hexagon-Pack",
+        "Furniture-Bits",
+        "Halloween-Bits",
+        "Prototype-Bits",
+        "Restaurant-Bits",
+        "Space-Base-Bits"
+      ],
+      "note": "all ten downloaded; Medieval-Hexagon supplies the trees and rocks"
+    },
+    "kenney_mirror": {
+      "source": "https://github.com/ETdoFresh/kenney.nl",
+      "license": "CC0 1.0",
+      "note": "128 packs mirrored; 20 with 3D Models/ folders extracted. NOT used in this scene - Kenney's flatter, toy-like style clashes with the Quaternius/KayKit painted look. Kept as a library."
     }
   },
   "characters": {
@@ -65,5 +87,6 @@
     ],
     "note": "raw Mixamo files are NOT committed - Adobe's licence forbids redistribution",
     "superseded": "Mixamo Peasant Man was replaced by KayKit characters: the Mixamo meshes are semi-realistic and clashed with the hand-painted kit"
-  }
+  },
+  "asset_index": "asset_index.json - 3179 models across 29 packs, name -> absolute path, built for lookup before placing anything"
 }
