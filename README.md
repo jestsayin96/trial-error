@@ -9,7 +9,8 @@ built and rendered in Blender.
 |---|---|
 | `scene/villagetrial.blend` | The scene. Geometry, materials, lights, camera. |
 | `renders/` | Rendered stills. |
-| `scripts/fetch_assets.py` | Downloads the CC0 textures + HDRI the scene needs. |
+| `scripts/fetch_assets.py` | Downloads the CC0 textures + HDRI this scene needs. |
+| `scripts/polyhaven_fetch_all.py` | Mirrors the **entire** Poly Haven CC0 library locally. |
 | `assets.json` | Which texture sets are used, and for what. |
 
 ## Rebuilding from scratch
@@ -63,3 +64,22 @@ spilling through the windows from an emissive panel plus point lights
 inside the house. A lantern by the door adds a second warm pool. The
 contrast between warm practicals and cool shade is what sells it — not the
 geometry.
+
+## Mirroring the whole Poly Haven library
+
+`fetch_assets.py` grabs only what this scene uses. To pull everything Poly
+Haven publishes — 869 texture sets, 997 HDRIs, 521 models, all CC0 — use:
+
+```bash
+python scripts/polyhaven_fetch_all.py
+```
+
+Roughly 160 GB and 2-4 hours at 2K textures / 2K models / 4K HDRIs. Override
+with `TEX_RES`, `MODEL_RES`, `HDRI_RES`.
+
+It is **resumable**: already-downloaded files are skipped, so interrupting it
+costs nothing. Progress is appended to `$VILLAGE_ASSETS/fetch_log.txt` and
+state is kept in `polyhaven_manifest.json`.
+
+As with the textures, none of the downloads are committed here — only the
+fetch logic, so a fresh clone can rebuild the whole library with one command.
